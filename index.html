@@ -1,12 +1,104 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Margins</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+</head>
+
+<body>
+
+    <nav class="a">
+        <span class="b">Margins</span>
+        <ul class="c">
+            <li><a href="#">Shelf</a></li>
+            <li><a href="#">Genres</a></li>
+            <li><a href="#">Notes</a></li>
+        </ul>
+        <a href="#" class="d">Sign in</a>
+    </nav>
+
+    <main class="e">
+
+        <section class="f">
+            <span class="g">A quiet reading log</span>
+            <h1>A small shelf for every book you finish.</h1>
+            <p>No accounts, no clutter, no exports — just a list. Yours, and quietly grown one title at a time.</p>
+            <button class="h">Start your shelf →</button>
+            <ul class="i">
+                <li>No sign-up</li>
+                <li>Works offline</li>
+                <li>Free forever</li>
+            </ul>
+        </section>
+
+        <section class="j">
+            <h2 class="k">How it works</h2>
+            <ul class="l">
+                <li>
+                    <div class="m">1</div>
+                    <h3>Add a book</h3>
+                    <p>Type the title, author, and year. Hit add.</p>
+                </li>
+                <li>
+                    <div class="m">2</div>
+                    <h3>It shows up</h3>
+                    <p>Goes straight to the bottom of your shelf.</p>
+                </li>
+                <li>
+                    <div class="m">3</div>
+                    <h3>Revisit anytime</h3>
+                    <p>Skim the list. Remove what's gone stale.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="n">
+            <h2 class="k">Try it</h2>
+            <p class="o">Add a book below. It joins your shelf instantly.</p>
+            <form class="p" id="book-form">
+                <label>
+                    Title
+                    <input type="text" name="title" placeholder="Title" />
+                </label>
+                <label>
+                    Author
+                    <input type="text" name="author" placeholder="Author" />
+                </label>
+                <label>
+                    Year
+                    <input type="text" name="year" placeholder="Year" />
+                </label>
+                <button type="submit" class="h">Add to shelf</button>
+            </form>
+            <ul class="q" id="book-list">
+                <li>
+                    <div class="r">
+                        <span class="s">The Sense of Style</span>
+                        <span class="t">Steven Pinker · 2014</span>
+                    </div>
+                    <button type="button" class="remove">Remove</button>
+                </li>
+                <li>
+                    <div class="r">
+                        <span class="s">Range</span>
+                        <span class="t">David Epstein · 2019</span>
+                    </div>
+                    <button type="button" class="remove">Remove</button>
+                </li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer class="u">
+        <span>Margins</span>
+        <span>© 2026</span>
+    </footer>
+
     <script src="index.js"></script>
-  </body>
+</body>
+
 </html>
